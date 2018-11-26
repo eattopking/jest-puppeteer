@@ -1,0 +1,31 @@
+{
+  "name": "test-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jest": "jest ./src/jest/index.test.js --coverage --colors",
+    "node": "node ./src/puppeteer/ppt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eattopking/test-react.git"
+  },
+  "author": "zhangh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eattopking/test-react/issues"
+  },
+  "homepage": "https://github.com/eattopking/test-react#readme",
+  "devDependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.6.0",
+    "puppeteer": "^1.10.0"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
