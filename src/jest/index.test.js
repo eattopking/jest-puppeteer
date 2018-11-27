@@ -1,4 +1,6 @@
-import React, { Component } from "react";
+// 自动逻辑测试
+
+import React from "react";
 import Enzyme, { shallow } from "enzyme";
 import Adapter from "enzyme-adapter-react-16"; // react16适配器
 import toJson from "enzyme-to-json"; // 引入enzyme-to-json为快照提供了json的组件格式
